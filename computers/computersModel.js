@@ -11,7 +11,7 @@ function getAll() {
 }
 
 async function insert(computer) {
-    return db("computers").insert(computer, id);
+    return db("computers").insert(computer, "id");
 }
 
 function remove(id) {
